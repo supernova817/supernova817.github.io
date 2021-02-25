@@ -22,6 +22,8 @@ rzp.capture(payment_id, cost)
 		return 2;
 	})
 ```
+# Ing..
+
 
 # Intro
 
