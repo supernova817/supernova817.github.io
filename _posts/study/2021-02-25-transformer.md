@@ -23,7 +23,7 @@ tag:
 
 # Model
 
-<img src="./data/Transformer/Model.PNG" ></img>
+![asd](/_posts/studty/data/Transformer/Model.PNG)
 
 모델의 전체 구조는 **Encoder**과 **Decoder**로 구성 되어있다.  
 
