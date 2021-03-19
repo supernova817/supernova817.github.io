@@ -23,7 +23,7 @@ tag:
 
 # Model
 
-<img src="data/Transformer/Model.PNG" ></img>
+<img src="https://github.com/supernova817/supernova817.github.io/blob/f1d6b4691a23f6982204126f271d77bf23bad295/_posts/study/data/Transformer/Model.PNG" ></img>
 
 모델의 전체 구조는 **Encoder**과 **Decoder**로 구성 되어있다.  
 
@@ -60,7 +60,7 @@ tag:
 
 <br>
 
-###      Scaled Dot-Production Attention a
+###      Scaled Dot-Production Attention
 
 
 sample link [blog]
