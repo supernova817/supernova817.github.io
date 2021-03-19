@@ -85,7 +85,7 @@ Scaled Dot-Production Attention 구조
 
 ### Positional Encoding
 
-모델의 전체 구조중 Encoder의 input은 Input embedding과 positional encoding이 더해져서 구해지는걸 볼 수있다.  Transformer는 RNN과 달리 단어의 위치정보를 알 수 없다. 그래서 단어 임베딩에 위치 정보를 더해준다. 이를 positional encoding (PE)이라 한다. 
+모델의 전체 구조중 Encoder의 input은 Input embedding과 positional encoding이 더해져서 구해지는걸 볼 수있다.  Transformer는 RNN과 달리 단어를 하나하나 순차적으로 넣지 않고 한 번에 넣는다. 따라서 단어의 위치정보를 알 수 없다. 그래서 단어 임베딩에 위치 정보를 더해준다. 이를 positional encoding (PE)이라 한다. 
 
 Positional Encoding의 함수는 다음과 같다.
 
@@ -125,7 +125,7 @@ Positional Encoding를 거친 후의 벡터는 Self-Attention Layer설명의 아
 
 # Decoder
 
-
+decoder의 step은 encoder와 비슷하다고 봐도된다.
 
 
 
