@@ -23,7 +23,7 @@ tag:
 
 # Model
 
-![asd](/_posts/studty/data/Transformer/Model.PNG)
+![asd](../data/Transformer/Model.PNG)
 
 모델의 전체 구조는 **Encoder**과 **Decoder**로 구성 되어있다.  
 
@@ -60,8 +60,7 @@ tag:
 
 <br>
 
-###      Scaled Dot-Production Attention a
-
+###      Scaled Dot-Production Attention 
 
 
 sample link [blog]
