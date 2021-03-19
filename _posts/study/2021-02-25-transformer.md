@@ -23,7 +23,7 @@ tag:
 
 # Model
 
-<img src="https://github.com/supernova817/supernova817.github.io/blob/f1d6b4691a23f6982204126f271d77bf23bad295/_posts/study/data/Transformer/Model.PNG" ></img>
+![Model](https://user-images.githubusercontent.com/58262251/111722408-23690a80-88a5-11eb-9dbe-c465a51da9d6.PNG)
 
 모델의 전체 구조는 **Encoder**과 **Decoder**로 구성 되어있다.  
 
@@ -31,7 +31,7 @@ tag:
 
 # Encoder
 
-<img src="data/Transformer/Encoder.PNG" ></img>
+![Encoder](https://user-images.githubusercontent.com/58262251/111722399-2106b080-88a5-11eb-8318-41b24086fe0f.PNG)
 
 **Encoder**를 나눠보면 2개의 sub layer(Self-Attention layer, Feed Forward layer)로 구분된다. 
 
@@ -41,26 +41,26 @@ tag:
 
 다음과 같은 단어 벡터가 입력으로 들어왔다고 하자.
 
-<img src="data/Transformer/Encoder_1.PNG" ></img>
+![Encoder_1](https://user-images.githubusercontent.com/58262251/111722403-2237dd80-88a5-11eb-9915-4559e0faaf4e.PNG)
 
 <br>
 
 텍스트의 정보를 벡터로 표현하여 유사도를 계산한다. 유사도를 계산하는 방법에는 내적, 맨해튼 dist등이 있지만 Transformer 모델에선 내적을 사용한다.
 
-<img src="data/Transformer/Encoder_2.PNG" ></img>
+![Encoder_2](https://user-images.githubusercontent.com/58262251/111722405-22d07400-88a5-11eb-9be6-e0da2135b235.PNG)
 
 <br>
 
 - 각 단어들의 Attention Score를 구한 후 Softmax를 사용하여 Attention Score를 확률값으로 표현한다.
 - 확률값으로 표현한 Attention Score를 각 단어벡터와 곱 한후 더해서 컨벡스트 벡터를 구한다.
 
-<img src="data/Transformer/Encoder_3.PNG" ></img>
+![Encoder_3](https://user-images.githubusercontent.com/58262251/111722406-22d07400-88a5-11eb-87e0-b5d28d3c75ef.PNG)
 
-<br><img src="data/Transformer/Encoder_4.PNG" ></img>
+![Encoder_4](https://user-images.githubusercontent.com/58262251/111722407-23690a80-88a5-11eb-9a9b-b3c73b060ccc.PNG)
 
 <br>
 
-###      Scaled Dot-Production Attention
+###      Scaled Dot-Production Attention aa
 
 
 sample link [blog]
