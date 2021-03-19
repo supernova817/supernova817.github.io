@@ -23,7 +23,7 @@ tag:
 
 # Model
 
-<img src="data/Transformer/Model.PNG" ></img>
+<img src="./data/Transformer/Model.PNG" ></img>
 
 모델의 전체 구조는 **Encoder**과 **Decoder**로 구성 되어있다.  
 
@@ -31,7 +31,7 @@ tag:
 
 # Encoder
 
-<img src="data/Transformer/Encoder.PNG" ></img>
+<img src="./data/Transformer/Encoder.PNG" ></img>
 
 **Encoder**를 나눠보면 2개의 sub layer(Self-Attention layer, Feed Forward layer)로 구분된다. 
 
@@ -41,26 +41,26 @@ tag:
 
 다음과 같은 단어 벡터가 입력으로 들어왔다고 하자.
 
-<img src="data/Transformer/Encoder_1.PNG" ></img>
+<img src="./data/Transformer/Encoder_1.PNG" ></img>
 
 <br>
 
 텍스트의 정보를 벡터로 표현하여 유사도를 계산한다. 유사도를 계산하는 방법에는 내적, 맨해튼 dist등이 있지만 Transformer 모델에선 내적을 사용한다.
 
-<img src="data/Transformer/Encoder_2.PNG" ></img>
+<img src="./data/Transformer/Encoder_2.PNG" ></img>
 
 <br>
 
 - 각 단어들의 Attention Score를 구한 후 Softmax를 사용하여 Attention Score를 확률값으로 표현한다.
 - 확률값으로 표현한 Attention Score를 각 단어벡터와 곱 한후 더해서 컨벡스트 벡터를 구한다.
 
-<img src="data/Transformer/Encoder_3.PNG" ></img>
+<img src="./data/Transformer/Encoder_3.PNG" ></img>
 
-<br><img src="data/Transformer/Encoder_4.PNG" ></img>
+<br><img src="./data/Transformer/Encoder_4.PNG" ></img>
 
 <br>
 
-###      Scaled Dot-Production Attention
+###      Scaled Dot-Production Attention a
 
 
 
