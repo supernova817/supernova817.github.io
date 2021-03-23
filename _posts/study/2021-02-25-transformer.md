@@ -129,9 +129,21 @@ decoder의 step은 encoder와 비슷하다고 봐도된다.
 
 
 
+### Masked Multi-Head Attention
+
+![Masked_Multi_Head_Attention](https://user-images.githubusercontent.com/58262251/112099118-4b7aa580-8be6-11eb-8ff7-d9ee7010837f.PNG)
+
+Encoder의 self attention츨과 같이 Attention Score Matrix를 만든다. 하지만 자기 자신보다 미래의 단어들은 참고하지 못하도록 위 그림과 같이 **masking**한다. 
+
+<br>
+
+### Encoder-Decoder Attention
+
+![Encoder_Decoder_Attention](https://user-images.githubusercontent.com/58262251/112099997-c5f7f500-8be7-11eb-8b52-a9ffb52db1e8.PNG)
+
+**Decoder** 의 encoder-decoder attention 부분이다. 각각의 decoder의 encoder-decoder attention에는 마지막 encoder의 output을 사용한다. 위 그림에서 encoder에서 나온 2개의 화살표는 encoder에서 나오는 Key와 Value이다. 
+
+즉 encoder-decoder attention의 Input은 decoder의 self attention layer에서 올라온 query, 마지막 encoder의 output으로 부터 얻은 Key, Value 이다. Attention Score를 얻는방법은 encoder와 같다.
 
 
 
-sample link [blog]
-
-[blog]: https://supernova817.github.io
